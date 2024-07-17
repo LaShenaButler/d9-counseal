@@ -10,28 +10,36 @@
         <body class="flex">
             <!-- add 2 sides a left and right -->
 
-             <div class="bg-slate-400 h-screen w-screen">left</div>
+             <div class="bg-slate-400 h-screen w-screen ">
+              
+             <!-- add a form inside the left side -->
 
-             <h2>HTML Forms</h2>
+                 <form>
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
-</form> 
+                    <form action="/action_page.php">
+                        <input required="" type="email" placeholder="Email" class="form-control form-control-line sd-login-email-input" name="LoginForm[email]">
+                        <input required="" type="password" placeholder="Password" name="LoginForm[password]" class="form-control form-control-line sd-login-password-input">
+                    <button class="btn btn-primary btn-primary-login ripple" type="submit">
+                        <span>Login</span>
+                      </button>
+
+                      <label for="LoginForm_rememberMe">Remember Me</label>
+
+                     <img ng-src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg">
+
+                    
+                    </form> 
+
+                    </div>
              
 
-            <div class="bg-red-400 h-screen w-screen">right</div>
+            <div class="bg-red-400 h-screen w-screen">
             
-            <img src="trees.jpg" style= log0 alt="alot of trees" width="500" height="600">
-
+                    <a><img src="trees.jpg" alt="Trees"></a>
             </div>
 
             <!-- add a form to the left side -->
 
-            <form action="">
 
             <!-- add a button to submit the form to the left side -->
             <!-- center the form in the middle on the left side -->
@@ -42,8 +50,6 @@
 
 
                 
-                <form action="">
-
                 </form>
 
 
