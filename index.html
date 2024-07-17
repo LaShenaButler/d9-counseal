@@ -10,23 +10,31 @@
         <body class="flex">
             <!-- add 2 sides a left and right -->
 
-             <div class="bg-slate-400 h-screen w-screen ">
+             <div class="bg-slate-400 h-screen w-screen text-center py-200">
+
+                <img class="w36 mx-auto mb-7"  src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" alt="logo">
+                    <form class="w-72" action="">
               
              <!-- add a form inside the left side -->
 
                  <form>
 
                     <form action="/action_page.php">
-                        <input required="" type="email" placeholder="Email" class="form-control form-control-line sd-login-email-input" name="LoginForm[email]">
-                        <input required="" type="password" placeholder="Password" name="LoginForm[password]" class="form-control form-control-line sd-login-password-input">
-                    <button class="btn btn-primary btn-primary-login ripple" type="submit">
-                        <span>Login</span>
-                      </button>
+                        
+                        <input class="mt-3 w-60 rounded-t-lg" type="email" placeholder="Email"><br>
 
-                      <label for="LoginForm_rememberMe">Remember Me</label>
+                        <input class="mt-3 w-60 rounded-b-lg" type="password" placeholder="Password"><br><br>
 
-                     <img ng-src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg" src="https://app.counseal.com/uploads/domain/39692/logo/200x60-dark_0d06cb13f7bc58f91c4b74ff0e6e852d.svg">
+                    <div>
 
+                        <input type="checkbox"> &nbsp; <label>Remember Me</label>
+                        <a href="#">(having trouble?)</a>
+                        <input class="mt-3 bg-green-500" type="submit" value="Login">
+
+                    </div>
+
+                        <input type="text" id="email" name="email">
+                    
                     
                     </form> 
 
@@ -35,7 +43,7 @@
 
             <div class="bg-red-400 h-screen w-screen">
             
-                    <a><img src="trees.jpg" alt="Trees"></a>
+                    <a><img class="object-cover w-full h-full" src="trees.jpg" alt="Trees"></a>
             </div>
 
             <!-- add a form to the left side -->
